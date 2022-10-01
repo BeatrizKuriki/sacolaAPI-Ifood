@@ -1,4 +1,4 @@
-package me.dio.sacola.model;
+package me.dio.sacola;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

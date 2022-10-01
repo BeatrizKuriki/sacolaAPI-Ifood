@@ -1,4 +1,5 @@
-package me.dio.sacola.model.enumeration;
+package me.dio.sacola.enumeration;
+
 
 public enum FormaPagamento {
     DINHEIRO, MAQUINETA;
