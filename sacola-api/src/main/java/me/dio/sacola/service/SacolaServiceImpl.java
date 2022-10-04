@@ -8,7 +8,7 @@ import me.dio.sacola.model.Sacola;
 import me.dio.sacola.repository.ItemRepository;
 import me.dio.sacola.repository.ProdutoRepository;
 import me.dio.sacola.repository.SacolaRepository;
-import me.dio.sacola.resource.dto.ItemDto;
+import me.dio.sacola.resource.ItemDto;
 import me.dio.sacola.service.SacolaService;
 import org.springframework.stereotype.Service;
 
