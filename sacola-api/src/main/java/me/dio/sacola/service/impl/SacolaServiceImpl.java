@@ -1,4 +1,4 @@
-package me.dio.sacola.service;
+package me.dio.sacola.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import me.dio.sacola.enumeration.FormaPagamento;
@@ -24,7 +24,7 @@ public class SacolaServiceImpl implements SacolaService {
 
     @Override
     public Item incluirItemNaSacola(ItemDto itemDto) {
-        Sacola sacola = verSacola(itemDto.getSacolaId());
+        Sacola sacola = verSacola(itemDto.getIdSacola());
 
         if (sacola.isFechada()) {
             throw new RuntimeException("Esta sacola está fechada.");
